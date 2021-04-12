@@ -1,0 +1,27 @@
+{
+  "name": "civet-home",
+  "version": "1.0.0",
+  "description": "civet home",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webbery/civet-home.git"
+  },
+  "author": "webberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webbery/civet-home/issues"
+  },
+  "homepage": "https://github.com/webbery/civet-home#readme",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  },
+  "dependencies": {
+    "vuepress-theme-thindark": "^1.0.1"
+  }
+}
