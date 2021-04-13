@@ -36,6 +36,10 @@ module.exports = {
       ],
       '/extension' : [
         {
+          title: '实现细节',
+          children: ['/protocal']
+        },
+        {
           title: '浏览器扩展',
           children: ['数据交互']
         },

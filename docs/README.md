@@ -1,7 +1,9 @@
 ---
 home: true
-actionText: 下载
+actionText: Civet下载
 actionLink: https://hub.fastgit.org/webbery/civet/releases
+actionText: 扩展下载
+actionLink: https://github.com/webbery/civet-home
 features:
 - title: 开源
   details: 开源的civet可以一直维护下去，不会因为各种原因停止前进的脚步。
