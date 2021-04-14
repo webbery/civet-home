@@ -18,21 +18,12 @@ module.exports = {
       '/frontend' : [
         {
           title: '属性面板',
-          children: ['标题属性', '列表属性', '画板属性', '特殊属性']
+          children: ['']
         },
         {
           title: '导航面板',
-          children: ['三导航', '分类导航']
-        },
-        {
-          title: '主面板',
-        },
-        {
-          title: '展示面板',
+          children: ['']
         }
-      ],
-      '/db' : [
-        { title: '查询' }, { title: '添加/修改/删除' }
       ],
       '/extension' : [
         {
@@ -41,7 +32,7 @@ module.exports = {
         },
         {
           title: '浏览器扩展',
-          children: ['数据交互']
+          children: ['']
         },
         {
           title: '数据源扩展',
