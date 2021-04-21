@@ -60,6 +60,20 @@ ext.contextMenus.onClicked.addListener(
 当然，一个完整的扩展不会如上面那般简单。例如，如果`Civet`没有启动，那么扩展应该将这个URL保存起来，直到`Civet`启动事件触发之后，同步更新。诸如此类的业务逻辑并不属于该部分内容。  
 
 本部分主要描述扩展的基本生命周期，以及之间的基本事件和参数结构。
+Civet与扩展直接没有启动的先后顺序之说。  
+Civet是相当于一个Server，而扩展则相当于一个Client。  
+当扩展连接上Civet时，会将自己的唯一扩展名发送给Civet，然后接收到来自Civet的配置信息。配置内容如下所示，存放在`ExtensionContext`中：
+```
+{
+  current: 当前资源库名称
+  candidates: [
+    {
+      name: 资源库名,
+      ext: [配置的扩展名]
+    }
+  ]
+}
+```
 ## 浏览器扩展  
 ## 前台扩展  
 ## 后台扩展  
